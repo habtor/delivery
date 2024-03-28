@@ -1,0 +1,271 @@
+.sign-in-form-container {
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1 50%;
+  text-align: center;
+}
+
+.form-input-button {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.form-input-button button {
+  margin-top: 1em;
+  border: none;
+  width: 70%;
+  height: 3em;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.form-input-button button:hover {
+  background-color: orange;
+  color: black;
+}
+
+.form-input-container input:focus {
+  outline: none;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.toggle-container label {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-container label div {
+  padding-right: 4px;
+}
+
+.form-input-container select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.form-input-container select option {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+.form-input-container select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+@media only screen and (max-width: 800px) {
+  .sign-up-page-sign-in-text {
+    display: none;
+  }
+
+  .sign-up-container {
+    display: block;
+  }
+
+  .form-input-container {
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .form-input-container label {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #7e7e7e;
+  }
+
+  .form-input-container input {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    color: #000000;
+    border: 0px solid;
+    border-bottom: 1px solid;
+    width: 80%;
+  }
+
+  .sign-up-img {
+    display: inline;
+    width: 100%;
+    height: 376px;
+  }
+
+  .sign-up-form-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .sign-in-form-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .form-input-button {
+    margin-bottom: 10%;
+  }
+
+  .form-input-button button {
+    margin-top: 1em;
+    border: none;
+    width: 12em;
+    height: 3em;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .form-input-button button:hover {
+    background-color: orange;
+    color: black;
+  }
+
+  .sign-up-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sign-up-form {
+    padding: 0;
+  }
+
+  form {
+    background-image: none;
+  }
+
+  .toggle-container label {
+    font-size: 10px;
+  }
+}
+
+.sign-up-page-sign-in-text {
+  display: block;
+  text-align: center;
+}
+
+.sign-up-page-sign-in-text div p:hover {
+  text-decoration: underline;
+}
+
+.sign-up-page-sign-in-text p {
+  font-size: 1.6em;
+}
+
+.sign-up-page-sign-in-text div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.sign-up-page-sign-in-text div p {
+  font-size: 0.8em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sign-up-page-sign-in-text div span {
+  font-size: 1.2em;
+  color: orange;
+}
+
+.sign-up-page-sign-in-text p span {
+  color: orange;
+}
+
+.sign-up-img {
+  display: none;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sign-up-page-sign-in-text {
+  flex: 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.sign-up-form {
+  background-color: white;
+  padding: 10%;
+  border-radius: 15px;
+  height: fit-content;
+}
+
+.sign-in-form {
+  background-color: white;
+  padding: 10%;
+  border-radius: 15px;
+  margin-top: 5em;
+}
+
+.sign-up-form-grid {
+  display: grid;
+}
+
+.sign-in-form-grid {
+  display: grid;
+  padding: 10%;
+}
+
+.form-input-container {
+  text-align: left;
+  margin-top: 30px;
+}
+
+form {
+  background-image: url("https://res.cloudinary.com/domvgm4cs/image/upload/v1706733529/pexels-photo-4247766_nhf88d.jpg");
+  padding: 5%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.form-input-container label {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  color: #7e7e7e;
+}
+
+.form-input-container input {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  color: #000000;
+  border: 0px solid;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+.sign-up-form-container {
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1 50%;
+  text-align: center;
+}

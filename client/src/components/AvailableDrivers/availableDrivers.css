@@ -1,0 +1,114 @@
+.driver {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: #c7c7c7;
+  border-radius: 12px;
+  cursor: default;
+  margin-top: 6px;
+}
+
+.driver-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.driver-details p {
+  margin: 0;
+}
+
+.driver-info > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+}
+
+.driver-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4px;
+}
+
+.driver-items-container {
+  min-height: 21em;
+  padding: 0.8em;
+}
+
+.driver-items-container > div {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.driver-items-container > div > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+}
+
+.driver-details > div > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-rating img {
+  margin-right: 5px;
+}
+
+.driver-details > div > div > div:nth-child(1) > p {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.driver-details > div > div > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  min-width: 10em;
+}
+
+.approve-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.approve-btn {
+  display: inline;
+  border: none;
+  background-color: orange;
+  height: 2.5em;
+  width: 11em;
+  border-radius: 0.5em;
+  margin-right: -1.7em;
+}
+
+.enabled {
+  cursor: pointer;
+  border: none;
+  background-color: orange;
+  height: 2.7em;
+  width: 100%;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+.disabled {
+  cursor: pointer;
+  pointer-events: none;
+  border: none;
+  background-color: #d9d9d9;
+  height: 2.7em;
+  width: 100%;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+.enabled:hover {
+  background-color: rgba(255, 166, 0, 0.821);
+}

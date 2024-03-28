@@ -1,0 +1,69 @@
+.about-us-container {
+  margin: 5em 0;
+}
+
+.about-us-heading {
+  text-align: center;
+  padding: 2em;
+}
+
+.about-us-imgs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.5em;
+  width: 90%;
+  margin: auto;
+}
+
+.img {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  min-height: 17em;
+  overflow: hidden;
+}
+
+.img-details {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: end;
+  width: 100%;
+  bottom: 0;
+  height: 100%;
+  padding: 1em;
+  background: linear-gradient(to top, rgb(255, 166, 0), #ffd16600, #ffd16600);
+}
+
+.img-details h3 {
+  font-weight: bold;
+  font-size: 3em;
+  color: rgba(0, 0, 0, 0.746);
+}
+.img1 {
+  background-image: url("https://res.cloudinary.com/domvgm4cs/image/upload/v1707748106/ord_li7jlc.png");
+}
+.img2 {
+  background-image: url("https://res.cloudinary.com/domvgm4cs/image/upload/v1707431819/main_ug9awe.png");
+}
+.img3 {
+  background-image: url("https://res.cloudinary.com/domvgm4cs/image/upload/v1707747890/delver_rkocdk.png");
+}
+
+@media only screen and (min-width: 800px) {
+  .about-us-imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+  }
+
+  .img {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+    min-height: 27em;
+  }
+}
