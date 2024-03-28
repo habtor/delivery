@@ -1,6 +1,7 @@
 <img src="https://i.ibb.co/rswhrqF/site.jpg" alt="screenshot">
-<img src="https://i.ibb.co/tLkT0sj/driver.png" alt="driver"/>
-<img src="https://i.ibb.co/dPMcM1H/client.png" alt="client"/>
+<img align="left" style="width: 215px;" src="https://i.ibb.co/dPMcM1H/client.png"/>
+<img align="left" style="width: 215px;" src="https://i.ibb.co/tLkT0sj/driver.png">
+<img align="left" style="width: 215px;" src="https://i.ibb.co/9wPL34t/trak.png">
 
 # Class 45 Group-A final project
 
