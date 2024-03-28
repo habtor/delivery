@@ -1,4 +1,6 @@
 <img src="https://i.ibb.co/rswhrqF/site.jpg" alt="screenshot">
+<img src="https://ibb.co/Z2tpQ84" alt="screenshot">
+<img src="https://ibb.co/3pdsdGP" alt="screenshot">
 
 # Class 45 Group-A final project
 
